@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url('../font/robotocondensed.woff2') format('woff2'), url('../font/robotocondensed.woff') format('woff'), url('../font/robotocondensed.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.RobotoCond {
+    font-family: 'Roboto Condensed';
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url('../font/robotocondensedbold.woff2') format('woff2'), url('../font/robotocondensedbold.woff') format('woff'), url('../font/robotocondensedbold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: bold;
+}
+
+.RobotoCondBd {
+    font-family: 'Roboto Condensed';
+}
+
+@font-face {
+    font-family: 'Mrs White';
+    src: local('Mrs White'), local('MrsWhite'), url('../font/MrsWhite.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.MrsWhite {
+    font-family: 'Mrs White';
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: local('Lobster'),
+        url('../font/lobster.woff2') format('woff2'),
+        url('../font/lobster.woff') format('woff'),
+        url('../font/lobster.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Lobster {
+    font-family: 'Lobster';
+}

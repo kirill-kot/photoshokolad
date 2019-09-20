@@ -1,0 +1,2495 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0;
+    transition: all .3s;
+}
+.inner_block {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header nav {
+    position: fixed;
+    height: 115px;
+    line-height: 115px;
+    z-index: 100;
+}
+.nav-wrapper_yellow {
+    position: relative;
+    height: 105px;
+    line-height: 105px;
+    margin: 5px 0;
+    padding: 0;
+    border-top: 3px dashed #fff;
+    border-bottom: 3px dashed #fff;
+    top: 0;
+    bottom: 0;
+}
+
+/*логотип*/
+
+.brand-logo {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    margin: 0.5rem 2rem;
+}
+.brand-logo img {
+    width: 150px;
+    height: auto;
+}
+
+/*сам навбар*/
+
+header nav ul {
+    margin: 0;
+    padding: 0 !important;
+    margin-left: 335px;
+    width: 750px;
+}
+header .dropdown-content {
+    background: #dcd256;
+    font-size: 0.5rem;
+}
+header .dropdown-content li a:hover {
+    background: #fff;
+}
+header .dropdown-content li a {
+    height: 115px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+header .dropdown-content li a.white-text:hover {
+    color: #f5e954 !important;
+}
+nav li a {
+    font-size: 1em;
+    padding: 0 0.75em;
+    height: 95px;
+    line-height: 115px;
+}
+.yellow_header {
+    background-color: #dcd256;
+}
+
+/*телефон*/
+
+.nav-phone {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0;
+    width: 350px;
+    height: 115px;
+    line-height: 115px;
+    font-size: 36px;
+}
+
+/*конпка в навбаре*/
+
+.nav-button {
+    display: flex;
+    float: right;
+    position: relative;
+    align-items: center;
+    padding: 0;
+    margin: 0 2em;
+    width: 200px;
+    height: 115px;
+    line-height: 115px;
+}
+.button_kabinet {
+    display: inline-flex;
+    align-items: center;
+    float: none;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    margin: 0px auto;
+    height: 38px;
+    line-height: 1;
+    width: 164px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+.button_kabinet:active {
+    color: rgba(211, 84, 135, .61);
+    background-color: #fff;
+}
+.button_kabinet:hover {
+    background-color: rgba(211, 84, 135, .61);
+    background-image: -webkit-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -moz-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -o-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -ms-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: linear-gradient(to top, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+}
+
+/*слайдеры стилизуются отсюда*/
+
+.swiper-container {
+    width: 100%;
+    height: 849px;
+}
+.swiper-slide {
+    position: relative;
+}
+.slide1 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/index/sasha.jpg') top center;
+    padding: 0;
+    margin: 0 auto;
+}
+.swiper3.swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper3.swiper-wrapper {
+    width: 100%;
+    height: auto;
+}
+.swiper4.swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper4.swiper-wrapper {
+    width: 100%;
+    height: auto;
+}
+.swiper4.swiper-slide {
+    height: auto;
+}
+.swiper3 .card {
+    max-width: 80%;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    float: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.swiper4 .card {
+    max-width: 90%;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    float: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.swiper4 .card-action {
+    text-align: center;
+}
+#slider.container {
+    width: 90%;
+}
+.swiper4 .card-title {
+    text-align: center;
+    line-height: 1;
+}
+.swiper_services.swiper-container {
+    height: 480px;
+}
+.swiper_services .swiper-slide {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.swiper_services .serv_header {
+    margin-top: 75px;
+    margin-left: 20px;
+    font-size: 2em;
+}
+.swiper_services .serv_descr {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: left;
+    float: left;
+    margin-top: 80px;
+    word-spacing: normal;
+    font-size: 18px;
+    z-index: 55;
+}
+.swiper_services .photo img {
+    width: 165px;
+    height: auto;
+    position: absolute;
+    top: 125px;
+    left: 0;
+}
+.swiper_services .animation img {
+    position: absolute;
+    top: 0;
+    z-index: 40;
+    left: -65px;
+}
+.swiper_services .souvenire img {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    z-index: 39;
+}
+.swiper_services .master-class img {
+    width: 110px;
+    height: auto;
+    position: absolute;
+    top: 175px;
+    left: 50px;
+}
+
+/*фон*/
+
+.textured {
+    width: 100%;
+    height: 100%;
+    background: url('../images/index/back.png') center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/*стиль для блоков без отсутпа*/
+
+.padless {
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/*стрелка вниз*/
+
+.arrow-placeholder {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    padding: 0;
+    z-index: 5;
+}
+
+/*стили заголовка в верхнем слайдере*/
+
+h1.giant {
+    font-size: 6.5em;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+h3.thin {
+    font-weight: 100;
+    font-style: lighter;
+}
+
+/*отступ в блоке картинок*/
+
+.imageholder {
+    margin-top: 5em;
+}
+
+/*портфлио цвет надписи и кнопка*/
+
+.folio {
+    color: #dcd256;
+}
+.button_folio {
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    float: none;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    margin: 0px auto;
+    height: 38px;
+    line-height: 38px;
+    font-size: 0.75em;
+    width: 164px;
+    border-radius: 25px;
+    color: #dcd256;
+    background: none;
+    border: 1px solid #dcd256;
+}
+.button_folio:hover {
+    color: #fff;
+    background-color: #dcd256;
+}
+.button_folio:focus {
+    color: #fff;
+    background-color: #dcd256;
+}
+.row .col {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+/*блок с поворотными текстами*/
+
+.rotating,
+.rotating_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 2em;
+    font-size: 24px;
+}
+.rotate-1 {
+    width: 24%;
+    text-align: center;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 10%;
+}
+.rotate-2 {
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    transform: rotate(5deg);
+    top: -35px;
+    right: 21%;
+}
+.rotate-3 {
+    width: 21%;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-3deg);
+    top: 33%;
+    right: 6%;
+}
+.rotate-4 {
+    width: 33%;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-5deg);
+    top: 33%;
+    left: 5%;
+}
+.rotate-5 {
+    width: 33%;
+    position: absolute;
+    text-align: center;
+    transform: rotate(5deg);
+    top: 33%;
+    right: 5%;
+}
+.rotating img,
+.rotating_2 img {
+    position: relative;
+    margin: 0 auto;
+}
+.rotating img {
+    margin-top: 45px;
+}
+
+/*портфолио блок*/
+
+#folio {
+    padding: 0 0.2em;
+}
+#folio .container {
+    width: 95%;
+}
+.folio_pic .responsive-img {
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    padding: 0.5em;
+}
+.folio_pic {
+    max-width: 100%;
+    width: auto;
+    height: 365px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.folio_pic:hover {
+    transform: scale(1.05);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.folio_pic:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    height: 94%;
+    width: 95%;
+    padding: 0;
+    margin: auto;
+}
+.folio_pic:hover:before {
+    background: none;
+}
+
+/*наша команда*/
+
+.swiper_workers.swiper-container {
+    margin: 75px auto 50px auto;
+    height: auto;
+}
+.swiper_workers .swiper-slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.swiper_workers .photocard {
+    position: relative;
+}
+p.frame_text {
+    text-align: center;
+    top: 0;
+    padding: 0;
+    margin: 25px auto;
+    font-size: 1.25em;
+}
+#testemonials {
+    width: auto;
+    height: 100%;
+    background: url('../images/index/test_back.png') top center;
+}
+#team {
+    width: auto;
+    height: 100%;
+    background: url('../images/index/team_back.png') top center no-repeat;
+    background-color: #d35487;
+}
+.author {
+    font-size: 2em;
+}
+
+/*копирайт подвала*/
+
+p.copy {
+    height: 100px;
+    line-height: normal;
+    font-size: 1.25em;
+    color: #e798b7;
+}
+
+/*картинки ссылок*/
+
+.links_img img {
+    width: auto;
+    height: 35px;
+    bottom: 0;
+    top: 0;
+    margin: 2rem 0.5rem;
+}
+a .links_img {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+/*подвал*/
+
+footer {
+    display: block;
+    height: 115px;
+    bottom: 0 !important;
+    position: static;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+footer .row {
+    margin: 0px !important;
+    padding: 0 !important;
+    overflow: hidden;
+    bottom: 0;
+}
+
+/*всплывающая галлерея*/
+
+#modal_gallery {
+    left: 0;
+    right: 0;
+    position: fixed;
+    max-width: 70%;
+    width: auto;
+    max-height: 90%;
+    height: auto;
+    margin: auto;
+}
+#modal_gallery .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    z-index: 50000;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#modal_gallery .close span {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 25px;
+    height: 1px;
+    color: white;
+    background-color: white;
+}
+#modal_gallery .close span:nth-child(1) {
+    transform: rotate(45deg);
+}
+#modal_gallery .close span:nth-child(2) {
+    transform: rotate(-45deg);
+}
+#materialize-lean-overlay-1 {
+    opacity: 0.9;
+}
+#modal_gallery .swiper-container {
+    width: auto;
+    height: 75%;
+    margin: auto;
+}
+#modal_gallery .swiper-slide {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#modal_gallery .swiper-slide img {
+    height: auto;
+    width: 75%;
+    margin: auto;
+}
+#modal_gallery .gallery-top {
+    height: 100%;
+    width: 100%;
+}
+
+/*mobile-first adaptive*/
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 70px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 1rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 100vh;
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+    .inner_block {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .swiper-slide h1.giant {
+        margin-top: 50%;
+        text-align: center;
+        font-size: 2.5em;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .swiper-slide h3.thin {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-style: lighter;
+        margin-top: 4em;
+    }
+    .arrow-placeholder {
+        bottom: 0.5em;
+    }
+    #folio {
+        padding: 0;
+    }
+    .folio_pic {
+        max-height: 240px;
+        height: auto;
+        max-width: 320px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 10px;
+    }
+    .rotate-1 {
+        top: 20px;
+        left: -20px;
+    }
+    .rotate-2 {
+        top: -25px;
+    }
+    .rotate-3 {
+        top: 25%;
+        right: 0;
+        z-index: 50;
+    }
+    .rotate-4 {
+        left: -5%;
+    }
+    .rotate-5 {
+        right: -5%;
+    }
+    .rotating img {
+        width: 280px;
+    }
+    .rotating_2 img {
+        width: 120px;
+    }
+    .swiper_services.swiper-container {
+        height: 320px;
+    }
+    .swiper_services .swiper-slide {
+        height: 280px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 35px;
+        font-size: 16px;
+    }
+    .swiper_services .anim .serv_header {
+        margin-left: 5px;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 12px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 50px;
+    }
+    .swiper_services .animation img {
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: 0;
+    }
+    .swiper_services .souvenire img {
+        width: 120px;
+        position: absolute;
+        top: 125px;
+        left: 25px;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 90px;
+    }
+    .frame_phot {
+        max-width: 120px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 1em;
+        margin: 20px auto;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.25rem;
+        bottom: -5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    /*    боковое меню в мобильнике*/
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 10px;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 100vh;
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+    .inner_block {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .swiper-slide h1.giant {
+        margin-top: 50%;
+        text-align: center;
+        font-size: 3em;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .swiper-slide h3.thin {
+        text-align: center;
+        font-size: 2em;
+        font-weight: 100;
+        font-style: lighter;
+        margin-top: 2em;
+    }
+    .arrow-placeholder {
+        bottom: 0.5em;
+    }
+    #folio {
+        padding: 0;
+    }
+    .folio_pic {
+        max-height: 360px;
+        height: auto;
+        max-width: 480px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 10px;
+    }
+    .rotate-1 {
+        top: 20px;
+        left: -20px;
+    }
+    .rotate-2 {
+        top: -25px;
+    }
+    .rotate-3 {
+        top: 25%;
+        right: 0;
+        z-index: 50;
+    }
+    .rotate-4 {
+        left: -5%;
+    }
+    .rotate-5 {
+        right: -5%;
+    }
+    .rotating img {
+        width: 280px;
+    }
+    .rotating_2 img {
+        width: 120px;
+    }
+    .swiper_services.swiper-container {
+        height: 320px;
+    }
+    .swiper_services .swiper-slide {
+        height: 280px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 12px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 100px;
+    }
+    .swiper_services .animation img {
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: 65px;
+    }
+    .swiper_services .anim p.serv_header {
+        width: 180px;
+        margin-left: 65px;
+    }
+    .swiper_services .souvenire img {
+        width: 120px;
+        position: absolute;
+        top: 125px;
+        left: 100px;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 140px;
+    }
+    .frame_phot {
+        max-width: 120px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 1em;
+        margin: 20px auto;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.25rem;
+        bottom: -5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 75vh;
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+    .inner_block {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .swiper-slide h1.giant {
+        margin-top: 50%;
+        text-align: center;
+        font-size: 3.5em;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .swiper-slide h3.thin {
+        text-align: center;
+        font-size: 2em;
+        font-weight: 100;
+        font-style: lighter;
+        margin-top: 0.75em;
+    }
+    .arrow-placeholder {
+        bottom: 5px;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 12px;
+    }
+    .rotate-1 {
+        top: 20px;
+        left: -20px;
+    }
+    .rotate-2 {
+        top: -25px;
+    }
+    .rotate-3 {
+        top: 25%;
+        right: 0;
+        z-index: 50;
+    }
+    .rotate-4 {
+        left: -5%;
+    }
+    .rotate-5 {
+        right: -5%;
+    }
+    .rotating img {
+        width: 420px;
+    }
+    .rotating_2 img {
+        width: 160px;
+    }
+    .swiper_services.swiper-container {
+        height: 320px;
+    }
+    .swiper_services .swiper-slide {
+        height: 280px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 12px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 50px;
+    }
+    .swiper_services .anim p.serv_header {
+        width: 220px;
+        margin-left: 0;
+    }
+    .swiper_services .animation img {
+        width: 220px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: 0;
+    }
+    .swiper_services .souvenire img {
+        width: 140px;
+        position: absolute;
+        top: 125px;
+        left: 25px;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 50px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 80px;
+    }
+    #folio {
+        padding: 0;
+    }
+    .folio_pic {
+        max-height: 480px;
+        height: auto;
+        max-width: 768px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    .frame_phot {
+        max-width: 160px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 1.25em;
+        margin: 20px auto;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.25rem;
+        bottom: -5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 10px;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 640px;
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+    .inner_block {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .swiper-slide h1.giant {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 3.5em;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .swiper-slide h3.thin {
+        text-align: center;
+        font-size: 2em;
+        font-weight: 100;
+        font-style: lighter;
+        margin-top: 0.75em;
+    }
+    .arrow-placeholder {
+        bottom: 5px;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 12px;
+    }
+    .rotate-1 {
+        top: 20px;
+    }
+    .rotate-2 {
+        top: -15px;
+    }
+    .rotate-3 {
+        top: 40%;
+    }
+    .rotating img {
+        width: 360px;
+    }
+    .rotating_2 img {
+        width: 120px;
+    }
+    #folio {
+        padding: 0;
+    }
+    .folio_pic {
+        max-height: 376px;
+        height: auto;
+        max-width: 496px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .swiper_services.swiper-container {
+        height: 320px;
+    }
+    .swiper_services .swiper-slide {
+        height: 280px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 35px;
+        font-size: 1em;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 9px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 90px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 25px;
+    }
+    .swiper_services .anim p.serv_header {
+        width: 180px;
+        margin-left: -2.5rem;
+    }
+    .swiper_services .animation img {
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: -2.5rem;
+    }
+    .swiper_services .souvenire img {
+        width: 120px;
+        position: absolute;
+        top: 125px;
+        left: 5%;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 50px;
+    }
+    .frame_phot {
+        max-width: 90px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 0.65em;
+        margin: 10px auto;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 0.9rem;
+        bottom: -5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    .swiper4 .card-title p {
+        font-size: 1.5em;
+    }
+    .swiper4 .card p {
+        font-size: 0.9em;
+    }
+    .swiper4 .card-action {
+        font-size: 0.9em;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+    .brand-logo {
+        margin: 0.75rem 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 60px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 165px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.5em;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 22px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 auto;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 35px;
+        line-height: 1;
+        border-radius: 25px;
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        max-height: 640px;
+    }
+    .arrow-placeholder {
+        bottom: 20px;
+    }
+    h1.giant {
+        margin-top: 200px;
+        font-size: 3em;
+    }
+    h3.thin {
+        font-size: 2em;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 14px;
+    }
+    .rotating img {
+        width: 360px;
+    }
+    .rotating_2 img {
+        width: 120px;
+    }
+    #folio {
+        padding: 0 0.2em;
+    }
+    .folio_pic {
+        max-height: 192px;
+        height: auto;
+        max-width: 256px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .swiper_services.swiper-container {
+        height: 360px;
+    }
+    .swiper_services .swiper-slide {
+        height: 320px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 30px;
+        font-size: 1em;
+    }
+    .swiper_services .serv_descr {
+        width: 45%;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 10px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 90px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 25px;
+    }
+    .swiper_services .animation img {
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: -25px;
+    }
+    .swiper_services .anim p.serv_header {
+        width: 180px;
+        margin-left: -25px;
+    }
+    .swiper_services .souvenire img {
+        width: 120px;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 50px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 40px;
+    }
+    .frame_phot {
+        max-width: 100px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 0.75em;
+        margin: 10px auto;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 0.9rem;
+        bottom: -5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    .swiper4 .card-title {
+        font-size: 1.5em;
+    }
+    .swiper4 .card p {
+        font-size: 0.9em;
+    }
+    .swiper4 .card-action {
+        font-size: 0.9em;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 60px;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        top: 10%;
+        height: 80%;
+        width: 80%;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .brand-logo {
+        margin: auto 0.75rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 70px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 155px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.4em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        line-height: 115px;
+        height: 115px;
+        font-size: 24px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 0.75em;
+        height: 115px;
+    }
+    .button_kabinet {
+        max-height: 35px;
+        line-height: 1;
+        margin-right: 25px;
+        border-radius: 25px;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        max-height: 768px;
+    }
+    .arrow-placeholder {
+        bottom: 20px;
+    }
+    h1.giant {
+        margin-top: 200px;
+        font-size: 4.75em;
+    }
+    h3.thin {
+        font-size: 2.5em;
+    }
+    .swiper_services.swiper-container {
+        height: 420px;
+    }
+    .swiper_services .swiper-slide {
+        height: 380px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 0;
+        font-size: 1.15em;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 10px;
+        margin-right: 60px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 12px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 90px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 0;
+    }
+    .swiper_services .animation img {
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: -50px;
+    }
+    .swiper_services .anim .serv_header {
+        width: 180px;
+        margin-left: -50px;
+    }
+    .swiper_services .souvenire img {
+        width: 120px;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 50px;
+        height: auto;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 18px;
+    }
+    .rotating img {
+        width: 520px;
+    }
+    .rotating_2 img {
+        width: 140px;
+    }
+    #folio {
+        padding: 0 0.2em;
+    }
+    #folio .container {
+        width: 85%;
+    }
+    .folio_pic {
+        max-height: 240px;
+        height: auto;
+        max-width: 320px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .frame_phot {
+        max-width: 125px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 0.9em;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1rem;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    .swiper4 {
+        height: auto;
+        margin: 30px auto;
+    }
+    .swiper4 .card-title {
+        font-size: 1.5em;
+    }
+    .swiper4 .card p {
+        font-size: 0.9em;
+    }
+    .swiper4 .card-action {
+        font-size: 0.9em;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 80%;
+    }
+}
+@media screen and (min-width:1281px) and (max-width:1600px) {
+    .brand-logo {
+        margin: auto 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        width: auto;
+        height: 90px;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav li a {
+        font-size: 0.8em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 32px;
+    }
+    .nav-phone span {
+        font-size: 26px;
+    }
+    .nav-button {
+        margin: 0 0.9em;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        border-radius: 25px;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 768px;
+    }
+    .arrow-placeholder {
+        bottom: 20px;
+    }
+    h1.giant {
+        margin-top: 250px;
+        font-size: 4.75em;
+    }
+    h3.thin {
+        font-size: 2.5em;
+    }
+    .swiper_services.swiper-container {
+        height: 420px;
+    }
+    .swiper_services .swiper-slide {
+        height: 380px;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 20px;
+        font-size: 1.4em;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 15px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 20px;
+    }
+    .swiper_services .animation img {
+        width: 220px;
+        position: absolute;
+        top: 25px;
+        z-index: 40;
+        left: -45px;
+    }
+    .swiper_services .anim .serv_header {
+        width: 180px;
+        margin-left: -25px;
+    }
+    .swiper_services .souvenire img {
+        width: 140px;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 60px;
+        height: auto;
+        position: absolute;
+        top: 175px;
+        left: 40px;
+    }
+    .rotating,
+    .rotating_2 {
+        font-size: 20px;
+    }
+    .rotating img {
+        width: 640px;
+    }
+    .rotating_2 img {
+        width: 180px;
+    }
+    #folio {
+        padding: 0 0.2em;
+    }
+    .folio_pic {
+        max-height: 300px;
+        height: auto;
+        max-width: 400px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .frame_phot {
+        max-width: 160px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 1em;
+        width: 80%;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.25rem;
+        bottom: 5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    .swiper4 .card-title {
+        font-size: 1.75em;
+    }
+    .swiper4 .card p {
+        font-size: 1.1em;
+    }
+    .swiper4 .card-action {
+        font-size: 0.9em;
+    }
+    p.copy {
+        line-height: 120px;
+        font-size: 0.9em;
+        margin: auto;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 80%;
+    }
+}
+@media screen and (min-width:1601px) {
+    .brand-logo {
+        max-width: none;
+        margin: 0.5rem 1rem;
+    }
+    .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    header {
+        max-width: 90%;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        width: auto;
+    }
+    header .dropdown-content li a {
+        height: 115px;
+        line-height: 115px;
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+    nav li a {
+        font-size: 1.15em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+        text-overflow: ellipsis;
+    }
+    .nav-phone {
+        width: auto;
+        height: 115px;
+        line-height: 115px;
+        font-size: 42px;
+    }
+    .nav-phone span {
+        font-size: 32px;
+    }
+    .nav-button {
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        width: 163px;
+        border-radius: 25px;
+    }
+    .swiper1 .swiper-container {
+        width: 100%;
+        height: 829px;
+    }
+    .arrow-placeholder {
+        bottom: 50px;
+    }
+    h1.giant {
+        padding-top: 150px;
+        font-size: 6.5em;
+    }
+    h3.thin {
+        font-size: 4em;
+    }
+    .rotating,
+    .rotating_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        margin: 2em;
+        font-size: 24px;
+    }
+    .rotate-1 {
+        width: 24%;
+        text-align: center;
+        position: absolute;
+        transform: rotate(-15deg);
+        left: 10%;
+    }
+    .rotate-2 {
+        width: 30%;
+        position: absolute;
+        text-align: center;
+        transform: rotate(5deg);
+        top: -35px;
+        right: 21%;
+    }
+    .rotate-3 {
+        width: 21%;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-3deg);
+        top: 33%;
+        right: 6%;
+    }
+    .rotate-4 {
+        width: 33%;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg);
+        top: 33%;
+        left: 5%;
+    }
+    .rotate-5 {
+        width: 33%;
+        position: absolute;
+        text-align: center;
+        transform: rotate(5deg);
+        top: 33%;
+        right: 5%;
+    }
+    .rotating img,
+    .rotating_2 img {
+        position: relative;
+        margin: 0 auto;
+    }
+    .rotating img {
+        margin-top: 45px;
+    }
+    #folio {
+        padding: 0 0.2em;
+    }
+    #folio .container {
+        width: 95%;
+    }
+    .folio_pic {
+        max-height: 360px;
+        height: auto;
+        max-width: 480px;
+        width: auto;
+        padding: 0.5em;
+        margin: 0;
+    }
+    .swiper_services.swiper-container {
+        height: 480px;
+    }
+    .swiper_services .swiper-slide {
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper_services .serv_header {
+        margin-top: 75px;
+        margin-left: 20px;
+        font-size: 1.75em;
+    }
+    .swiper_services .serv_descr {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 50px;
+        text-align: left;
+        float: left;
+        margin-top: 80px;
+        word-spacing: normal;
+        font-size: 18px;
+        z-index: 55;
+    }
+    .swiper_services .photo img {
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 125px;
+        left: 0;
+    }
+    .swiper_services .animation img {
+        width: 300px;
+        position: absolute;
+        top: 0;
+        z-index: 40;
+        left: -65px;
+    }
+    .swiper_services .anim .serv_header {
+        margin-left: -65px;
+        width: 300px;
+    }
+    .swiper_services .souvenire img {
+        width: 200px;
+        position: absolute;
+        top: 175px;
+        left: -10px;
+        z-index: 39;
+    }
+    .swiper_services .master-class img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 175px;
+        left: 40px;
+    }
+    .frame_phot {
+        max-width: 225px;
+    }
+    .swiper_workers .photocard {
+        width: 180px;
+    }
+    p.frame_text {
+        text-align: left;
+        font-size: 1.35em;
+    }
+    #team h4 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.5rem;
+        bottom: 5px;
+        left: 10px;
+        right: 10px;
+        line-height: normal;
+    }
+    .swiper4 .card-title p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.9em;
+    }
+    .swiper4 .card p {
+        font-size: 1.2em;
+    }
+    .swiper4 .card-action {
+        font-size: 1em;
+    }
+    p.copy {
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        line-height: 100px;
+        font-size: 1.5em;
+    }
+    .links_img img {
+        height: 50px;
+        margin: 1.75em 1rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 100px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+    #modal_gallery {
+        max-width: none;
+        width: 100%;
+        max-height: none;
+        height: 80%;
+    }
+    #modal_gallery .close {
+        right: 5%;
+    }
+    #modal_gallery .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #modal_gallery .swiper-slide {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #modal_gallery .swiper-slide img {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    #modal_gallery .gallery-top {
+        height: 100%;
+        width: 80%;
+    }
+}

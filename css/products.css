@@ -1,0 +1,2268 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0;
+    /*    transition: all .3s;*/
+}
+header nav {
+    position: fixed;
+    height: 115px;
+    line-height: 115px;
+    z-index: 100;
+}
+.nav-wrapper_yellow {
+    position: relative;
+    height: 105px;
+    line-height: 105px;
+    margin: 5px 0;
+    padding: 0;
+    border-top: 3px dashed #fff;
+    border-bottom: 3px dashed #fff;
+    top: 0;
+    bottom: 0;
+}
+
+/*логотип*/
+
+.brand-logo {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    margin: 0.5rem 2rem;
+}
+.brand-logo img {
+    width: 150px;
+    height: auto;
+}
+
+/*сам навбар*/
+
+header nav ul {
+    margin: 0;
+    padding: 0 !important;
+    margin-left: 335px;
+    width: 750px;
+}
+header .dropdown-content {
+    background: #dcd256;
+    font-size: 0.5rem;
+}
+header .dropdown-content li a:hover {
+    background: #fff;
+}
+header .dropdown-content li a {
+    height: 115px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+header .dropdown-content li a.white-text:hover {
+    color: #f5e954 !important;
+}
+nav li a {
+    font-size: 1em;
+    padding: 0 0.75em;
+    height: 95px;
+    line-height: 115px;
+}
+.yellow_header {
+    background-color: #dcd256;
+}
+
+/*телефон*/
+
+.nav-phone {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0;
+    width: 350px;
+    height: 115px;
+    line-height: 115px;
+    font-size: 36px;
+}
+
+/*конпка в навбаре*/
+
+.nav-button {
+    display: flex;
+    float: right;
+    position: relative;
+    align-items: center;
+    padding: 0;
+    margin: 0 2em;
+    width: 200px;
+    height: 115px;
+    line-height: 115px;
+}
+.button_kabinet {
+    display: inline-flex;
+    align-items: center;
+    float: none;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    margin: 0px auto;
+    height: 38px;
+    line-height: 1;
+    width: 164px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+.button_kabinet:active {
+    color: rgba(211, 84, 135, .61);
+    background-color: #fff;
+}
+.button_kabinet:hover {
+    background-color: rgba(211, 84, 135, .61);
+    background-image: -webkit-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -moz-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -o-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -ms-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: linear-gradient(to top, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+}
+.side-nav {
+    z-index: 50;
+}
+body.products {
+    background: url('../images/products/back.png') center;
+}
+body.products .section.no-pad-bottom {
+    padding-bottom: 0;
+}
+body.products .container.white {
+    padding-bottom: 1rem;
+}
+.imageholder {
+    margin-top: 5em;
+}
+.row .col {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#products .row {
+    padding-top: 115px;
+}
+
+/*секция процукции*/
+
+.section p {
+    font-size: 1.5em;
+}
+.title {
+    font-size: 1.5em !important;
+}
+.prod_card {
+    background-color: #fff;
+    padding-bottom: 2em !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+}
+.prod_card img {
+    display: block;
+    max-height: none;
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    justify-content: center;
+    text-align: center;
+}
+.prod_card p {
+    font-size: .9em;
+}
+
+/*фотоальбомы*/
+
+.photobook .slider {
+    overflow: hidden;
+}
+.photobook .collapsible,
+.photobook .collapsible-header,
+.photobook .collapsible-body {
+    border: none !important;
+}
+.photobook .collapsible-body p {
+    padding: 0 5px;
+    border: none;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.photobook .collapsible-header p {
+    width: 210px;
+    line-height: normal;
+    min-height: none;
+}
+.photobook .collapsible-body ul li {
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    border: none !important;
+}
+.photobook .collapsible-body ul li:before {
+    float: left;
+    color: #f06292;
+    content: '•';
+    padding: 10px 5px;
+}
+.photobook .collapsible-body ul li p {
+    text-align: left;
+}
+.photobook .fullscreen {
+    position: absolute;
+    left: auto;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20242.133%20242.133%22%3E%0A%20%20%3Cg%20fill%3D%22%23dcd256%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M89.247%20131.673l-47.732%2047.73-15.909-15.91c-4.29-4.291-10.742-5.572-16.347-3.252C3.654%20162.563%200%20168.033%200%20174.1v53.032c0%208.284%206.716%2015%2015%2015l53.033.001c.007-.001.012-.001.019%200%208.285%200%2015-6.716%2015-15%200-4.377-1.875-8.316-4.865-11.059l-15.458-15.458%2047.73-47.729c5.858-5.858%205.858-15.355%200-21.213-5.856-5.859-15.355-5.858-21.212-.001zM227.133%200H174.1c-6.067%200-11.536%203.655-13.858%209.26-2.321%205.605-1.038%2012.057%203.252%2016.347l15.911%2015.911-47.729%2047.73c-5.858%205.858-5.858%2015.355%200%2021.213%202.929%202.929%206.768%204.393%2010.606%204.393%203.839%200%207.678-1.464%2010.606-4.394l47.73-47.73%2015.909%2015.91c2.869%202.87%206.706%204.394%2010.609%204.394%201.933%200%203.882-.373%205.737-1.142%205.605-2.322%209.26-7.792%209.26-13.858V15c0-8.284-6.716-15-15-15z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+.photobook .swiper-button-prev.swiper-button-white {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23dcd256'%2F%3E%3C%2Fsvg%3E");
+}
+.photobook .swiper-button-next.swiper-button-white {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23dcd256'%2F%3E%3C%2Fsvg%3E");
+}
+.photobook .swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photobook .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.photobook .gallery-albums .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*слайдеры по альбомам*/
+
+.photobook .gallery-albums .swiper-slide img {
+    height: auto;
+    width: 80%;
+    max-width: none;
+}
+.gallery-albums {
+    height: 80%;
+    width: 100%;
+}
+
+/*слайдеры миниатюры*/
+
+.gallery-thumbs-album {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.gallery-thumbs-album .swiper-slide {
+    width: 20%;
+    height: auto;
+    opacity: 0.4;
+}
+.gallery-thumbs-album .swiper-slide img {
+    height: auto;
+    width: 100%;
+    max-width: none;
+}
+.gallery-thumbs-album .swiper-slide-active {
+    opacity: 1;
+}
+.photobook img {
+    margin-bottom: 0;
+}
+
+/*всплывающие галаереи форматируются отсюда*/
+
+#photo_modal,
+#photo_pack_modal,
+#cd_modal,
+#acryl_modal,
+#magnet_modal,
+#crystal_modal,
+#paint_modal,
+#rock_modal,
+#puzzle_modal,
+#pocket_calendar_modal,
+#desk_calendar_modal,
+#breloq_modal,
+#toy_modal,
+#waterball_modal,
+#wallclock_modal,
+#photoframe_modal,
+#album_modal {
+    left: 0;
+    right: 0;
+    position: fixed;
+    max-width: 70%;
+    width: auto;
+    max-height: 90%;
+    height: auto;
+    margin: auto;
+}
+#photo_modal .close,
+#photo_pack_modal .close,
+#cd_modal .close,
+#acryl_modal .close,
+#magnet_modal .close,
+#crystal_modal .close,
+#paint_modal .close,
+#rock_modal .close,
+#puzzle_modal .close,
+#pocket_calendar_modal .close,
+#desk_calendar_modal .close,
+#breloq_modal .close,
+#toy_modal .close,
+#waterball_modal .close,
+#wallclock_modal .close,
+#photoframe_modal .close,
+#album_modal .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    z-index: 50000;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#photo_modal .close span,
+#photo_pack_modal .close span,
+#cd_modal .close span,
+#acryl_modal .close span,
+#magnet_modal .close span,
+#crystal_modal .close span,
+#paint_modal .close span,
+#rock_modal .close span,
+#puzzle_modal .close span,
+#pocket_calendar_modal .close span,
+#desk_calendar_modal .close span,
+#breloq_modal .close span,
+#toy_modal .close span,
+#waterball_modal .close span,
+#wallclock_modal .close span,
+#photoframe_modal .close span,
+#album_modal .close span {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 25px;
+    height: 1px;
+    color: white;
+    background-color: white;
+}
+#photo_modal .close span:nth-child(2),
+#photo_pack_modal .close span:nth-child(2),
+#cd_modal .close span:nth-child(2),
+#acryl_modal .close span:nth-child(2),
+#magnet_modal .close span:nth-child(2),
+#crystal_modal .close span:nth-child(2),
+#paint_modal .close span:nth-child(2),
+#rock_modal .close span:nth-child(2),
+#puzzle_modal .close span:nth-child(2),
+#pocket_calendar_modal .close span:nth-child(2),
+#desk_calendar_modal .close span:nth-child(2),
+#breloq_modal .close span:nth-child(2),
+#toy_modal .close span:nth-child(2),
+#waterball_modal .close span:nth-child(2),
+#wallclock_modal .close span:nth-child(2),
+#photoframe_modal .close span:nth-child(2),
+#album_modal .close span:nth-child(2) {
+    transform: rotate(45deg);
+}
+#photo_modal .close span:nth-child(1),
+#photo_pack_modal .close span:nth-child(1),
+#cd_modal .close span:nth-child(1),
+#acryl_modal .close span:nth-child(1),
+#magnet_modal .close span:nth-child(1),
+#crystal_modal .close span:nth-child(1),
+#paint_modal .close span:nth-child(1),
+#rock_modal .close span:nth-child(1),
+#puzzle_modal .close span:nth-child(1),
+#pocket_calendar_modal .close span:nth-child(1),
+#desk_calendar_modal .close span:nth-child(1),
+#breloq_modal .close span:nth-child(1),
+#toy_modal .close span:nth-child(1),
+#waterball_modal .close span:nth-child(1),
+#wallclock_modal .close span:nth-child(1),
+#photoframe_modal .close span:nth-child(1),
+#album_modal .close span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+#materialize-lean-overlay-1 {
+    opacity: 0.9;
+}
+#photo_modal .swiper-container,
+#photo_pack_modal .swiper-container,
+#cd_modal .swiper-container,
+#acryl_modal .swiper-container,
+#magnet_modal .swiper-container,
+#crystal_modal .swiper-container,
+#paint_modal .swiper-container,
+#rock_modal .swiper-container,
+#puzzle_modal .swiper-container,
+#pocket_calendar_modal .swiper-container,
+#desk_calendar_modal .swiper-container,
+#breloq_modal .swiper-container,
+#toy_modal .swiper-container,
+#waterball_modal .swiper-container,
+#wallclock_modal .swiper-container,
+#photoframe_modal .swiper-container,
+#album_modal .swiper-container {
+    width: auto;
+    height: 75%;
+    margin: auto;
+}
+#photo_modal .swiper-slide,
+#photo_pack_modal .swiper-slide,
+#cd_modal .swiper-slide,
+#acryl_modal .swiper-slide,
+#magnet_modal .swiper-slide,
+#crystal_modal .swiper-slide,
+#paint_modal .swiper-slide,
+#rock_modal .swiper-slide,
+#puzzle_modal .swiper-slide,
+#pocket_calendar_modal .swiper-slide,
+#desk_calendar_modal .swiper-slide,
+#breloq_modal .swiper-slide,
+#toy_modal .swiper-slide,
+#waterball_modal .swiper-slide,
+#wallclock_modal .swiper-slide,
+#photoframe_modal .swiper-slide,
+#album_modal .swiper-slide {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#photo_modal .photo-modal,
+#photo_pack_modal .photo-pack-modal,
+#cd_modal .cd-modal,
+#acryl_modal .acryl-modal,
+#magnet_modal .magnet-modal,
+#crystal_modal .crystal-modal,
+#paint_modal .paint-modal,
+#rock_modal .rock-modal,
+#puzzle_modal .puzzle-modal,
+#pocket_calendar_modal .pocket-calendar-modal,
+#desk_calendar_modal .desk-calendar-modal,
+#breloq_modal .breloq-modal,
+#toy_modal .toy-modal,
+#waterball_modal .waterball-modal,
+#wallclock_modal .wallclock-modal,
+#photoframe_modal .photoframe-modal,
+#album_modal .album-modal {
+    height: 100%;
+    width: 100%;
+}
+.small {
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em !important;
+}
+.prices {
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    line-height: 1;
+    margin: 10px auto;
+}
+.price {
+    vertical-align: middle;
+    font-size: 1.5em !important;
+}
+.align-top {
+    align-self: flex-start;
+}
+.double-strokes {
+    padding-top: 0.5em !important;
+}
+.dashed-top {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    position: relative;
+    border-top: 3px dashed #f48fb1;
+}
+.dashed-top p {
+    font-size: 2em;
+    line-height: 1;
+    padding: 0.5em;
+    margin: auto;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+.info {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    vertical-align: middle !important;
+    margin: 10px auto !important;
+    padding: 0;
+}
+.info p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.dashed-bottom {
+    width: 100%;
+    clear: both;
+    position: relative;
+    display: block;
+    bottom: 0 !important;
+    vertical-align: bottom !important;
+    height: 3px;
+    margin: 0 auto !important;
+    padding: 0;
+    padding-bottom: 2.25em !important;
+    border-bottom: 3px dashed #000;
+    box-sizing: content-box;
+}
+.btn-custom {
+    position: relative;
+    bottom: -1em;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.btn-custom:hover {
+    background: #f48fb1 !important;
+    color: white !important;
+}
+
+/*секция подарков*/
+
+#gifts .row .responsive-img:nth-child(1) {
+    max-width: 50vw;
+}
+#gifts > p {
+    font-size: 1.75em;
+}
+#gifts .gift_sum {
+    display: flex;
+    justify-content: space-between;
+}
+#gifts .gift_sum p {
+    position: relative;
+    width: auto;
+    vertical-align: middle;
+}
+#gifts .gift_sum p:nth-child(1) {
+    align-self: center;
+}
+#gifts .gift_sum p:nth-child(2) {
+    font-size: 2em;
+    align-self: center;
+}
+#gifts .gifts_text {
+    padding: 0 1em;
+    margin: 2em auto;
+}
+.padless {
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.inner_block {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+p.copy {
+    height: 100px;
+    line-height: normal;
+    font-size: 1.25em;
+    color: #e798b7;
+}
+
+/*картинки ссылок*/
+
+.links_img img {
+    width: auto;
+    height: 35px;
+    bottom: 0;
+    top: 0;
+    margin: 2rem 0.5rem;
+}
+a .links_img {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+/*подвал*/
+
+footer {
+    display: block;
+    height: 115px;
+    bottom: 0 !important;
+    position: static;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+footer .row {
+    margin: 0px !important;
+    padding: 0 !important;
+    overflow: hidden;
+    bottom: 0;
+}
+
+/*mobile-first adaptive*/
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.4rem 1rem;
+    }
+    nav .brand-logo img {
+        height: 70px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 1rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 2.25em;
+    }
+    .section p {
+        font-size: 1.5em;
+    }
+    .section .small {
+        padding: 0.5em 1em;
+    }
+    .slider {
+        height: auto;
+        margin: 0;
+    }
+    .photobooks {
+        flex-direction: column;
+    }
+    .photobooks span.small {
+        display: block;
+        float: left;
+        width: 50%;
+        clear: both;
+    }
+    .photobooks .prices {
+        width: 100%;
+    }
+    .photobook .prices {
+        height: auto;
+    }
+    .photobook .collapsible-body p {
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+    .photobook .collapsible-header p {
+        text-align: center;
+        margin: auto;
+        font-size: 1em;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #photo_modal,
+    #photo_pack_modal,
+    #cd_modal,
+    #acryl_modal,
+    #magnet_modal,
+    #crystal_modal,
+    #paint_modal,
+    #rock_modal,
+    #puzzle_modal,
+    #pocket_calendar_modal,
+    #desk_calendar_modal,
+    #breloq_modal,
+    #toy_modal,
+    #waterball_modal,
+    #wallclock_modal,
+    #photoframe_modal,
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .title {
+        font-size: 2em !important;
+    }
+    .prod_card {
+        max-height: 100%;
+        height: auto;
+    }
+    .prod_card img {
+        position: relative;
+        max-width: 90%;
+        max-height: 180px;
+    }
+    .prod_card p {
+        font-size: 1.125em;
+    }
+    .small {
+        font-size: 1.125em !important;
+    }
+    .small span {
+        font-size: 1.5em !important;
+    }
+    .price {
+        font-size: 1.75em !important;
+    }
+    .dashed-top p {
+        font-size: 2em;
+    }
+    .btn-custom {
+        bottom: -.75em;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.75em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 2.25em;
+        align-self: center;
+    }
+    .inner_block {
+        padding: 1em 0 !important;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 2.25em;
+    }
+    .section p {
+        font-size: 2em;
+    }
+    .slider {
+        height: auto;
+        margin: 0;
+    }
+    .photobooks {
+        flex-direction: column;
+    }
+    .photobooks span.small {
+        display: block;
+        float: left;
+        width: 50%;
+        clear: both;
+    }
+    .photobooks .prices {
+        width: 100%;
+    }
+    .photobook .prices {
+        height: auto;
+    }
+    .photobook .collapsible-body p {
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+    .photobook .collapsible-header p {
+        font-size: 1.5em;
+        width: 90%;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #photo_modal,
+    #photo_pack_modal,
+    #cd_modal,
+    #acryl_modal,
+    #magnet_modal,
+    #crystal_modal,
+    #paint_modal,
+    #rock_modal,
+    #puzzle_modal,
+    #pocket_calendar_modal,
+    #desk_calendar_modal,
+    #breloq_modal,
+    #toy_modal,
+    #waterball_modal,
+    #wallclock_modal,
+    #photoframe_modal,
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .title {
+        font-size: 2.25em !important;
+    }
+    .prod_card img {
+        max-height: 240px;
+    }
+    .prod_card p {
+        font-size: 1.4em;
+    }
+    .small {
+        font-size: 1.25em !important;
+    }
+    .small span {
+        font-size: 1.5em !important;
+    }
+    .price {
+        font-size: 2em !important;
+    }
+    .dashed-top p {
+        font-size: 2em;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 2em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 2.5em;
+        align-self: center;
+    }
+    .inner_block {
+        padding: 1em 0 !important;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .prod_card img {
+        max-height: 360px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    #gifts .gift_sum {
+        display: block;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 3.5em;
+    }
+    .section p {
+        font-size: 2em;
+    }
+    .title {
+        font-size: 2em !important;
+    }
+    .prod_card img {
+        max-width: 240px;
+        max-height: 160px;
+    }
+    .prod_card {
+        max-height: none;
+        height: 600px;
+        justify-content: space-between;
+    }
+    .photobook {
+        max-height: none;
+        height: 100%;
+    }
+    .slider {
+        height: auto;
+        max-height: none;
+        margin: 0 !important;
+    }
+    .photobook .prices {
+        height: auto;
+    }
+    .photobook .collapsible-body p {
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    .photobook .collapsible-header p {
+        font-size: 1.25em;
+        width: 90%;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .title {
+        font-size: 2.25em !important;
+    }
+    .prod_card img {
+        max-height: 480px;
+    }
+    .small {
+        font-size: 1.5em !important;
+    }
+    .small span {
+        font-size: 1.25em !important;
+        line-height: 1.25em;
+        vertical-align: bottom;
+        align-self: flex-end;
+    }
+    .prod_card p {
+        font-size: 1.1em;
+    }
+    .price {
+        font-size: 1.75em !important;
+    }
+    .dashed-top p {
+        font-size: 2em;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.5em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 1.75em;
+    }
+    .inner_block {
+        padding: 1em 0 !important;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1023px) {
+    .brand-logo {
+        margin: 0.75rem 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 60px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 165px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.5em;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 22px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 auto;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 35px;
+        line-height: 1;
+        border-radius: 25px;
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 2.5em;
+    }
+    .btn-custom {
+        width: 135px;
+        font-size: 10px;
+        line-height: 1;
+        bottom: -1.25em;
+    }
+    .section p {
+        font-size: 1.25em;
+    }
+    .title {
+        font-size: 1.125em !important;
+    }
+    .prod_card img {
+        height: 135px;
+    }
+    .prod_card {
+        justify-content: space-between;
+        height: 480px;
+    }
+    .photobook {
+        min-height: 480px;
+        height: auto;
+    }
+    .photobook .slider {
+        position: relative;
+        height: auto;
+    }
+    .photobook .collapsible-header {
+        text-align: left;
+        min-height: 20px;
+        height: auto;
+        line-height: normal;
+    }
+    .photobook .collapsible-body p {
+        font-size: 0.75em;
+        padding: 0 5px;
+        line-height: 1.1em;
+    }
+    .photobook .collapsible-header p {
+        font-size: 0.9em;
+    }
+    .photobook .collapsible-body ul li {
+        margin: 0;
+    }
+    .photobook .collapsible-body ul li:before {
+        height: 10px;
+        padding: 0 5px;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .prod_card img {
+        max-height: 120px;
+    }
+    .small {
+        font-size: 0.75em !important;
+    }
+    .small span {
+        font-size: 1.1em !important;
+    }
+    .prod_card p {
+        font-size: 0.8em;
+    }
+    .small {
+        font-size: 0.9em !important;
+    }
+    .price {
+        font-size: 1.25em !important;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.25em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 1.75em;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 60px;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .brand-logo {
+        margin: auto 0.75rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 70px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 155px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.4em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        line-height: 115px;
+        height: 115px;
+        font-size: 24px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 0.75em;
+        height: 115px;
+    }
+    .button_kabinet {
+        max-height: 35px;
+        line-height: 1;
+        margin-right: 25px;
+        border-radius: 25px;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 2.5em;
+    }
+    .btn-custom {
+        width: 135px;
+        font-size: 10px;
+        line-height: 1;
+        bottom: -1.5em;
+    }
+    .section p {
+        font-size: 1.25em;
+    }
+    .title {
+        font-size: 1.25em !important;
+    }
+    .prod_card img {
+        max-height: 135px;
+    }
+    .prod_card {
+        justify-content: space-between;
+        min-height: 480px;
+        height: auto;
+    }
+    .photobook .slider {
+        position: relative;
+        height: auto;
+    }
+    .photobook .collapsible-header {
+        text-align: left;
+        min-height: 20px;
+        height: auto;
+        line-height: normal;
+    }
+    .photobook .collapsible-body p {
+        font-size: 0.75em;
+        padding: 0 5px;
+        line-height: 1.1em;
+    }
+    .photobook .collapsible-header p {
+        font-size: 0.9em;
+    }
+    .photobook .collapsible-body ul li {
+        margin: 0;
+    }
+    .photobook .collapsible-body ul li:before {
+        height: 10px;
+        padding: 0 5px;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .prod_card p {
+        font-size: 0.8em;
+    }
+    .small {
+        font-size: 0.9em !important;
+    }
+    .small span {
+        font-size: 1.4em !important;
+    }
+    .price {
+        font-size: 1.25em !important;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.25em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 1.75em;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:1281px) and (max-width:1600px) {
+    .brand-logo {
+        margin: auto 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        width: auto;
+        height: 90px;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav li a {
+        font-size: 0.8em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 32px;
+    }
+    .nav-phone span {
+        font-size: 26px;
+    }
+    .nav-button {
+        margin: 0 0.9em;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        border-radius: 25px;
+    }
+    /*секция процукции*/
+    h3 {
+        font-size: 2.5em;
+    }
+    .btn-custom {
+        width: 150px;
+        font-size: 12px;
+        line-height: 1;
+        bottom: -1em;
+    }
+    .section p {
+        font-size: 1.5em;
+    }
+    .title {
+        font-size: 1.5em !important;
+    }
+    .prod_card img {
+        max-height: 135px;
+    }
+    .prod_card p {
+        font-size: 1em;
+    }
+    .prod_card {
+        justify-content: space-between;
+        min-height: 540px;
+        height: auto;
+    }
+    .photobook .slider {
+        position: relative;
+        height: auto;
+    }
+    .photobook .collapsible-header {
+        text-align: left;
+        min-height: 30px;
+        height: auto;
+        line-height: normal;
+    }
+    .photobook .collapsible-body p {
+        font-size: 1em;
+        padding: 0 5px;
+        line-height: 1.2em;
+    }
+    .photobook .collapsible-header p {
+        font-size: 1.2em;
+    }
+    .photobook .collapsible-body ul li {
+        margin: 0;
+        font-size: 0.9em;
+        padding: 0 5px;
+        line-height: 1em;
+    }
+    .photobook .collapsible-body ul li:before {
+        height: 10px;
+        padding: 0 5px;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    #photo_modal.swiper-slide img,
+    #photo_pack_modal.swiper-slide img,
+    #cd_modal.swiper-slide img,
+    #acryl_modal.swiper-slide img,
+    #magnet_modal.swiper-slide img,
+    #crystal_modal.swiper-slide img,
+    #paint_modal.swiper-slide img,
+    #rock_modal.swiper-slide img,
+    #puzzle_modal.swiper-slide img,
+    #pocket_calendar_modal.swiper-slide img,
+    #desk_calendar_modal.swiper-slide img,
+    #breloq_modal.swiper-slide img,
+    #toy_modal.swiper-slide img,
+    #waterball_modal.swiper-slide img,
+    #wallclock_modal.swiper-slide img,
+    #photoframe_modal.swiper-slide img,
+    #album_modal .swiper-slide img {
+        margin-top: 10%;
+        width: 75%;
+        height: auto;
+    }
+    .small span {
+        font-size: 1.3em !important;
+    }
+    .small {
+        font-size: 1.2em !important;
+    }
+    .price {
+        font-size: 1.5em !important;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.5em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 2em;
+    }
+    p.copy {
+        line-height: 120px;
+        font-size: 0.9em;
+        margin: auto;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1601px) {
+    .brand-logo {
+        max-width: none;
+        margin: 0.5rem 1rem;
+    }
+    .brand-logo img {
+        height: 75px;
+        width: auto;
+    }
+    header {
+        max-width: 90%;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        width: auto;
+    }
+    header .dropdown-content li a {
+        height: 115px;
+        line-height: 115px;
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+    nav li a {
+        font-size: 1.15em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+        text-overflow: ellipsis;
+    }
+    .nav-phone {
+        width: auto;
+        height: 115px;
+        line-height: 115px;
+        font-size: 42px;
+    }
+    .nav-phone span {
+        font-size: 32px;
+    }
+    .nav-button {
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        width: 163px;
+        border-radius: 25px;
+    }
+    h3 {
+        font-size: 2.5em;
+    }
+    .btn-custom {
+        width: 200px;
+        font-size: 18px;
+        line-height: 1;
+        bottom: -0.75em;
+    }
+    .section p {
+        font-size: 2em;
+    }
+    .title {
+        font-size: 2em !important;
+    }
+    .prod_card img {
+        max-height: 160px;
+    }
+    .prod_card {
+        justify-content: space-between;
+        min-height: 640px;
+        height: auto;
+    }
+    .photobook .slider {
+        position: relative;
+        height: auto;
+    }
+    .photobook .collapsible-header {
+        text-align: left;
+        min-height: 30px;
+        height: auto;
+        line-height: normal;
+    }
+    .photobook .collapsible-body p {
+        font-size: 1.15em;
+        padding: 0 5px;
+        line-height: 1.25em;
+    }
+    .photobook .collapsible-header p {
+        font-size: 1.2em;
+    }
+    .photobook .collapsible-body ul li {
+        margin: 0;
+        font-size: 0.9em;
+        padding: 0 5px;
+        line-height: 1.1em;
+    }
+    .photobook .collapsible-body ul li:before {
+        height: 10px;
+        padding: 0 5px;
+    }
+    .photobook .fullscreen {
+        right: 5px;
+        height: 20px;
+        width: 20px;
+    }
+    /*    размеры кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white,
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        background-size: 20px 40px;
+        width: 20px;
+        height: 40px;
+    }
+    /*    отступы кнопок*/
+    .gallery-albums .swiper-button-next.swiper-button-white {
+        right: 5px;
+    }
+    .gallery-albums .swiper-button-prev.swiper-button-white {
+        left: 5px;
+    }
+    .gallery-albums .swiper-slide img {
+        height: auto;
+        width: 75%;
+        max-width: none;
+    }
+    #album_modal {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+    #photo_modal .close,
+    #photo_pack_modal .close,
+    #cd_modal .close,
+    #acryl_modal .close,
+    #magnet_modal .close,
+    #crystal_modal .close,
+    #paint_modal .close,
+    #rock_modal .close,
+    #puzzle_modal .close,
+    #pocket_calendar_modal .close,
+    #desk_calendar_modal .close,
+    #breloq_modal .close,
+    #toy_modal .close,
+    #waterball_modal .close,
+    #wallclock_modal .close,
+    #photoframe_modal .close,
+    #album_modal .close {
+        right: 10px;
+    }
+    #photo_modal .swiper-container,
+    #photo_pack_modal .swiper-container,
+    #cd_modal .swiper-container,
+    #acryl_modal .swiper-container,
+    #magnet_modal .swiper-container,
+    #crystal_modal .swiper-container,
+    #paint_modal .swiper-container,
+    #rock_modal .swiper-container,
+    #puzzle_modal .swiper-container,
+    #pocket_calendar_modal .swiper-container,
+    #desk_calendar_modal .swiper-container,
+    #breloq_modal .swiper-container,
+    #toy_modal .swiper-container,
+    #waterball_modal .swiper-container,
+    #wallclock_modal .swiper-container,
+    #photoframe_modal .swiper-container,
+    #album_modal .swiper-container {
+        height: 90%;
+    }
+    .small span {
+        font-size: 1.3em !important;
+    }
+    .prod_card p {
+        font-size: 1.15em;
+    }
+    .small {
+        font-size: 1.4em !important;
+    }
+    .price {
+        font-size: 1.8em !important;
+    }
+    /*секция подарков*/
+    #gifts p {
+        font-size: 1.8em;
+    }
+    #gifts .gift_sum p:nth-child(2) {
+        font-size: 2.4em;
+    }
+    p.copy {
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        line-height: 100px;
+        font-size: 1.5em;
+    }
+    .links_img img {
+        height: 50px;
+        margin: 1.75em 1rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 100px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,1073 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0;
+    transition: all .3s;
+}
+
+.inner_block {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav {
+    position: fixed;
+    height: 115px;
+    line-height: 115px;
+    z-index: 100;
+}
+
+.nav-wrapper_yellow {
+    position: relative;
+    height: 105px;
+    line-height: 105px;
+    margin: 5px 0;
+    padding: 0;
+    border-top: 3px dashed #fff;
+    border-bottom: 3px dashed #fff;
+    top: 0;
+    bottom: 0;
+}
+
+
+/*логотип*/
+
+.brand-logo {
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    margin: 0.5rem 2rem;
+}
+
+.brand-logo img {
+    width: 150px;
+    height: auto;
+}
+
+
+/*сам навбар*/
+
+header nav ul {
+    margin: 0;
+    padding: 0 !important;
+    margin-left: 335px;
+    width: 750px;
+}
+
+header .dropdown-content {
+    background: #dcd256;
+    font-size: 0.5rem;
+}
+
+header .dropdown-content li a:hover {
+    background: #fff;
+}
+
+header .dropdown-content li a {
+    height: 115px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+header .dropdown-content li a.white-text:hover {
+    color: #f5e954 !important;
+}
+
+nav li a {
+    font-size: 1em;
+    padding: 0 0.75em;
+    height: 95px;
+    line-height: 115px;
+}
+
+.yellow_header {
+    background-color: #dcd256;
+}
+
+.yellow_text {
+    color: #dcd256;
+}
+
+
+/*телефон*/
+
+.nav-phone {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0;
+    width: 350px;
+    height: 115px;
+    line-height: 115px;
+    font-size: 36px;
+}
+
+
+/*конпка в навбаре*/
+
+.nav-button {
+    display: flex;
+    float: right;
+    position: relative;
+    align-items: center;
+    padding: 0;
+    margin: 0 2em;
+    width: 200px;
+    height: 115px;
+    line-height: 115px;
+}
+
+.button_kabinet {
+    display: inline-flex;
+    align-items: center;
+    float: none;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    margin: 0px auto;
+    height: 38px;
+    line-height: 1;
+    width: 164px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+
+.button_kabinet:active {
+    color: rgba(211, 84, 135, .61);
+    background-color: #fff;
+}
+
+.button_kabinet:hover {
+    background-color: rgba(211, 84, 135, .61);
+    background-image: -webkit-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -moz-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -o-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: -ms-linear-gradient(bottom, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+    background-image: linear-gradient(to top, rgba(215, 215, 215, .43), rgba(255, 255, 255, .43));
+}
+
+.side-nav {
+    z-index: 50;
+}
+
+#maps {
+    padding-top: 115px;
+    width: 100%;
+    height: auto;
+}
+
+body.map {
+    background: url('../images/index/back.png') center;
+}
+
+.map-container {
+    position: relative;
+    display: block;
+    margin: 0 0.1em;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    mask-box-image: url('../images/contacts/svg/map_frame.svg');
+    -webkit-mask-box-image: url('../images/contacts/svg/map_frame.svg');
+}
+
+.map_frame {
+    width: auto;
+    padding: 0;
+    background: url('../images/contacts/svg/map_border.svg') top center no-repeat;
+    background-size: auto;
+}
+
+.photos {
+    margin: 0.5em auto !important;
+}
+
+body.map .row {
+    margin-bottom: 0;
+}
+
+.row .col {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+p.copy {
+    height: 100px;
+    line-height: normal;
+    font-size: 1.25em;
+    color: #e798b7;
+}
+
+
+/*картинки ссылок*/
+
+.links_img img {
+    width: auto;
+    height: 35px;
+    bottom: 0;
+    top: 0;
+    margin: 2rem 0.5rem;
+}
+
+a .links_img {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+
+/*подвал*/
+
+footer {
+    display: block;
+    height: auto;
+    bottom: 0 !important;
+    position: static;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+footer .row {
+    margin: 0px !important;
+    padding: 0 !important;
+    overflow: hidden;
+    bottom: 0;
+}
+
+
+/*mobile-first adaptive*/
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.4rem 1rem;
+    }
+    nav .brand-logo img {
+        height: 70px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 1rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    nav {
+        max-width: 320px;
+    }
+    h3 {
+        font-size: 2.5em;
+        margin-bottom: 2.5em;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map .row {
+        margin: 0;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    #map {
+        margin: auto;
+    }
+    .map_frame {
+        width: 100%;
+    }
+    .map-container {
+        height: 240px;
+        margin: 0 0.5em;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    .port_img {
+        padding: 0.5em;
+    }
+    img.responsive-img {
+        max-width: 120px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 2em;
+        margin: 0.5em auto;
+    }
+    .flex-row {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    body.map .row {
+        margin: 0;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map_frame {
+        width: 100%;
+    }
+    .map-container {
+        height: 280px;
+        margin: auto;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-width: 120px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 2em;
+        margin: 0.5em auto;
+    }
+    .flex-row {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    #map {
+        margin: auto;
+    }
+    .map_frame {
+        width: 100%;
+    }
+    .map-container {
+        height: 375px;
+        margin: 0 0.25em;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 120px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 2em;
+        margin: 0.5em auto;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    #slide-out li {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 15px;
+    }
+    #slide-out {
+        height: 100%;
+    }
+    nav .brand-logo img {
+        height: 80px;
+        width: auto;
+    }
+    .button_kabinet {
+        display: block;
+        align-items: center;
+        float: none;
+        justify-content: center;
+        position: relative;
+        padding: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 38px;
+        line-height: 1;
+        width: 164px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+    }
+    a.links_img .button-collapse,
+    .links_img.button-collapse img {
+        left: 0;
+        margin: 2.5rem 2rem;
+    }
+    .brand-logo {
+        padding: 0;
+        margin: 0.5rem 0;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    .zagolovok {
+        background-size: 640px;
+        overflow: visible;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map-container {
+        margin: 0 0.1em;
+        width: 100%;
+        mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+        -webkit-mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+    }
+    .map_frame {
+        background: url('../images/contacts/svg/map_border_2.svg') top center no-repeat;
+    }
+    .map_frame {
+        width: 100%;
+    }
+    .map-container {
+        height: 208px;
+        margin: auto;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 120px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 1.75em;
+        margin: 0.5em auto;
+    }
+    footer .brand-logo {
+        width: auto;
+        height: auto;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1023px) {
+    .brand-logo {
+        margin: 0.75rem 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 60px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 165px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.5em;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 22px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 auto;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 35px;
+        line-height: 1;
+        border-radius: 25px;
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map-container {
+        width: 100%;
+        mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+        -webkit-mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+    }
+    .map_frame {
+        background: url('../images/contacts/svg/map_border_2.svg') top center no-repeat;
+    }
+    .map-container {
+        height: 208px;
+        margin: auto;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 60px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 1.1em;
+        margin: 0.5em auto;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 60px;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .brand-logo {
+        margin: 0.5rem 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        height: 70px;
+        width: auto;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        margin-left: 155px;
+    }
+    nav li a {
+        font-size: 0.65em;
+        padding: 0 0.4em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        line-height: 115px;
+        height: 115px;
+        font-size: 24px;
+    }
+    .nav-phone span {
+        font-size: 18px;
+    }
+    .nav-button {
+        margin: 0 0.75em;
+        height: 115px;
+    }
+    .button_kabinet {
+        max-height: 35px;
+        line-height: 1;
+        margin-right: 25px;
+        border-radius: 25px;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map-container {
+        margin: 0 0.1em;
+        width: 100%;
+        mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+        -webkit-mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+    }
+    .map_frame {
+        background: url('../images/contacts/svg/map_border_2.svg') top center no-repeat;
+    }
+    .map-container {
+        height: 208px;
+        margin: auto;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 60px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 1.1em;
+        margin: 0.5em auto;
+    }
+    p.copy {
+        font-size: 0.85em;
+        height: 120px;
+        line-height: 120px;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1281px) and (max-width:1600px) {
+    .brand-logo {
+        margin: 0.5rem 1rem;
+    }
+    .brand-logo img {
+        max-width: none;
+        width: auto;
+        height: 70px;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav li a {
+        font-size: 0.8em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+    }
+    .nav-phone {
+        height: 115px;
+        line-height: 115px;
+        font-size: 32px;
+    }
+    .nav-phone span {
+        font-size: 26px;
+    }
+    .nav-button {
+        margin: 0 0.9em;
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        border-radius: 25px;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map-container {
+        margin: 0 0.1em;
+        width: 100%;
+        mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+        -webkit-mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+    }
+    .map_frame {
+        background: url('../images/contacts/svg/map_border_2.svg') top center no-repeat;
+    }
+    .map-container {
+        height: 208px;
+        margin: auto;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 60px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 1.1em;
+        margin: 0.5em auto;
+    }
+    p.copy {
+        line-height: 120px;
+        font-size: 0.9em;
+        margin: auto;
+    }
+    .links_img img {
+        height: 25px;
+        margin: 1.75em 0.5rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 75px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    .brand-logo {
+        max-width: none;
+        margin: 0.5rem 1rem;
+    }
+    .brand-logo img {
+        height: 75px;
+        width: auto;
+    }
+    header {
+        max-width: 90%;
+    }
+    header nav ul {
+        margin-left: 200px;
+    }
+    nav .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    nav .nav-wrapper_yellow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    header nav ul {
+        width: auto;
+    }
+    header .dropdown-content li a {
+        height: 115px;
+        line-height: 115px;
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+    nav li a {
+        font-size: 1.15em;
+        padding: 0 0.5em;
+        height: 115px;
+        line-height: 115px;
+        text-overflow: ellipsis;
+    }
+    .nav-phone {
+        width: auto;
+        height: 115px;
+        line-height: 115px;
+        font-size: 42px;
+    }
+    .map-container {
+        height: 208px;
+        margin: auto;
+    }
+    .nav-phone span {
+        font-size: 32px;
+    }
+    .nav-button {
+        height: 115px;
+        line-height: 1;
+    }
+    .button_kabinet {
+        height: 38px;
+        line-height: 1;
+        width: 163px;
+        border-radius: 25px;
+    }
+    .side-nav {
+        z-index: 50;
+    }
+    #sidenav-overlay {
+        z-index: 25;
+    }
+    body.map #map_size {
+        width: 100%;
+    }
+    .map-container {
+        margin: 0 0.1em;
+        width: 100%;
+        mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+        -webkit-mask-box-image: url('../images/contacts/svg/map_frame_2.svg');
+    }
+    .map_frame {
+        background: url('../images/contacts/svg/map_border_2.svg') top center no-repeat;
+    }
+    #map_size {
+        margin: 0 auto 2em auto;
+    }
+    img.responsive-img {
+        max-height: 60px;
+    }
+    .phone p,
+    .mail p,
+    .workhours p,
+    .geo p {
+        font-size: 1.2em;
+        margin: 0.5em auto;
+    }
+    p.copy {
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        line-height: 100px;
+        font-size: 1.5em;
+    }
+    .links_img img {
+        height: 50px;
+        margin: 1.75em 1rem;
+    }
+    a .links_img {
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    footer .brand-logo {
+        width: auto;
+        margin: 0.75rem 0;
+    }
+    footer .brand-logo img {
+        width: auto;
+        height: 100px;
+    }
+    footer .flex-row {
+        justify-content: space-between;
+    }
+}
